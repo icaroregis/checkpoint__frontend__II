@@ -29,10 +29,15 @@ a {
   margin: 15px;
 }
 
+li {
+  list-style-type: none;
+}
+
 .lista__menu {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-top: 13px;
 }
 
 .nav .lista__menu .item__menu a:hover {
@@ -117,16 +122,6 @@ body.modal-open {
 
 /* modal login */
 
-@keyframes menu__item {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
 .aluno {
   display: flex;
   flex-direction: column;
@@ -190,7 +185,6 @@ body.modal-open {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  position: relative;
 }
 
 .container__image__main {
@@ -380,6 +374,16 @@ body.modal-open {
   z-index: 99;
 }
 
+@keyframes menu__item {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
 @media(max-width: 1200px) {
   .container__header {
     width: 100%;
@@ -431,8 +435,8 @@ body.modal-open {
 
   .show .menu__hamburguer {
     position: absolute;
-    top: 32px;
-    right: 27px;
+    top: 28px;
+    right: 10px;
   }
 
   .show .nav {
