@@ -262,7 +262,7 @@ body.modal-open {
   flex: 1;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  background: url("../../assets/imgs/coringa__banner.svg") no-repeat;
+  background: url("../assets/imgs/banner-coringa.svg") no-repeat;
   background-size: cover;
   width: 320px;
   box-sizing: border-box;
@@ -272,7 +272,7 @@ body.modal-open {
   flex: 1;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  background: url("../../assets/imgs/after__banner.svg") no-repeat;
+  background: url("../assets/imgs/batman.jpeg") no-repeat;
   background-size: cover;
   width: 320px;
   box-sizing: border-box;
@@ -282,7 +282,7 @@ body.modal-open {
   flex: 1;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  background: url("../../assets/imgs/captain__marvel__banner.svg") no-repeat;
+  background: url("../assets/imgs/captain__marvel__banner.svg") no-repeat;
   background-size: cover;
   width: 320px;
   box-sizing: border-box;
@@ -292,7 +292,7 @@ body.modal-open {
   flex: 1;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  background: url("../../assets/imgs/dora__banner.svg") no-repeat;
+  background: url("../assets/imgs/dora__banner.svg") no-repeat;
   background-size: cover;
   width: 320px;
   box-sizing: border-box;
@@ -302,7 +302,7 @@ body.modal-open {
   flex: 1;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  background: url("../../assets/imgs/1917__banner.svg") no-repeat;
+  background: url("../assets/imgs/1917__banner.svg") no-repeat;
   background-size: cover;
   width: 320px;
   box-sizing: border-box;
@@ -312,7 +312,7 @@ body.modal-open {
   flex: 1;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  background: url("../../assets/imgs/thor__banner.svg") no-repeat;
+  background: url("../assets/imgs/thor__banner.svg") no-repeat;
   background-size: cover;
   width: 320px;
   box-sizing: border-box;
