@@ -370,8 +370,8 @@ body.modal-open {
 }
 
 .footer__master {
-  position: relative;
   z-index: 99;
+  margin-top: 30px;
 }
 
 @keyframes menu__item {
@@ -417,6 +417,7 @@ body.modal-open {
 
   .nav {
     display: none;
+    margin-left: -20px;
   }
 
   .menu__section__filmes.show {
@@ -456,7 +457,7 @@ body.modal-open {
   }
 
   .container__footer {
-    height: 840px;
+    height: 1100px;
   }
 
   .container__image__main {
