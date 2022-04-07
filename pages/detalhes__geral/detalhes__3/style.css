@@ -1,3 +1,11 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .container__header__master {
     display: flex;
     align-items: center;
@@ -31,10 +39,15 @@
     margin: 15px;
   }
   
+  li {
+    list-style-type: none;
+  }
+
   .lista__menu {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    margin-top: 13px;
   }
   
   .nav .lista__menu .item__menu a:hover {
@@ -228,13 +241,19 @@
       width: 100%;        
     }  
     .trailer{
-      width: 100%;     
+      width: 100%;
+      margin-top: 30px;     
     }
   }
   
   @media (max-width: 1205px){
     .sinopse{
       width: 100%;           
+    }
+  
+    .trailer{
+      width: 100%;
+      margin-top: 50px;     
     }
   }
   
@@ -247,20 +266,24 @@
     .container__footer {
       width: 100%;
     }
-  }
   
-  @media (max-wodth: 1016px){
-    
-    .h1{
-      font-size: 24px;
-      padding: 10px;
+    .trailer{
+      width: 100%;
+      margin-top: 50px;     
     }
   }
+  
   @media(max-width:1045px) {
     .video {
       width: 100%;     
       box-sizing: border-box;
     }
+  
+    .trailer{
+      width: 100%;
+      margin-top: 80px;     
+    }
+  
   }
   
   @media(max-width:1000px) {
@@ -270,20 +293,13 @@
   }
   
   @media(max-width:700px) {
-    .alunos {
-      flex-direction: column;
-    }
-  
-    .container__footer {
-      height: 800px;
-    }
-   
     .menu__hamburguer {
       display: block;
     }
   
     .nav {
       display: none;
+      margin-left: -20px;
     }
   
     .menu__section__filmes.show {
@@ -302,8 +318,8 @@
   
     .show .menu__hamburguer {
       position: absolute;
-      top: 40px;
-      right: 40px;
+      top: 28px;
+      right: 10px;
     }
   
     .show .nav {
@@ -317,6 +333,38 @@
       gap: 60px;
       font-weight: bold;
     }
+  
+    .alunos {
+      flex-direction: column;
+    }
+  
+    .container__footer {
+      height: 1100px;
+    }
+  
+    .container__image__main {
+      height: 700px;
+    }
+  
+    .container__image__main .image__dhflix h1 {
+      font-size: 2.5rem;
+      margin-left: 5px;
+    }
+  
+    .container__image__main .image__dhflix p {
+      font-size: .8rem;
+      margin-left: 5px;
+    }
+  
+    .button__explorer {
+      width: 300px;
+    }
+  
+    .trailer{
+      width: 100%;
+      margin-top: 150px;     
+    }
+  
   }
   
   @media(max-width:405px) {
