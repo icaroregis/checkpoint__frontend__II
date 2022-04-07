@@ -130,6 +130,11 @@ body.modal-open {
   text-align: center;
 }
 
+.aluno:last-child {
+  position: relative;
+  top: 11px;
+}
+
 .contato {
   display: flex;
   gap: 12px;
@@ -146,10 +151,11 @@ body.modal-open {
 }
 
 .alunos {
-  width: 1000px;
+  width: 1010px;
   display: flex;
   justify-content: space-around;
   gap: 50px;
+  border: 1px solid white;
 }
 
 .container__footer {
